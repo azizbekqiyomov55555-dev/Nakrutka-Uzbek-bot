@@ -17,7 +17,7 @@ from keyboards.inlines.accses import like_button
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = os.getenv("BOT_TOKEN")
+API_TOKEN = ("8581826002:AAERcJJEZm1RIyp5U3SzdMgrzzfMq0NmkbI")
 
 bot = Bot(token=API_TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot, storage=MemoryStorage())
