@@ -21,8 +21,8 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = os.getenv("BOT_TOKEN")  # Railway Variables -> BOT_TOKEN
-ADMIN_ID = 6457971132              # admin telegram ID
+API_TOKEN = ("8581826002:AAERcJJEZm1RIyp5U3SzdMgrzzfMq0NmkbI")  # Railway Variables -> BOT_TOKEN
+ADMIN_ID =  8537782289             # admin telegram ID
 
 bot = Bot(token=API_TOKEN, parse_mode="HTML")
 dp = Dispatcher(bot, storage=MemoryStorage())
