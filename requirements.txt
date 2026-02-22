@@ -1,0 +1,2 @@
+instagpy==0.1.10
+aiogram==2.25.1
